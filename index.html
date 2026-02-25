@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DailyTen - News App</title>
+    <title>DailyTen - Hírek Alkalmazás</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="ic_launcher.png">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>DailyTen</h1>
+                <img src="ic_launcher.png" alt="DailyTen Logo" style="height: 40px; width: 40px; margin-right: 10px;">
+                <h1 style="display: inline;">DailyTen</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Főoldal</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+                <li><a href="privacy.html">Adatvédelem</a></li>
             </ul>
         </nav>
     </header>
@@ -24,54 +27,84 @@
         <section id="home" class="hero">
             <div class="hero-content">
                 <h1>DailyTen</h1>
-                <p>Your Daily News Companion</p>
-                <p>Stay informed with curated news updates delivered to your device every day</p>
+                <p>A DailyTen egy olyan hírmobilalkalmazás, amely segít időt megtakarítani a naponta releváns és szűrt hírekkel.</p>
+                <p>Nálunk nincsenek kattintásvadász cikkek és felesleges hirdetések, csak valódi tartalom.</p>
+                <p>Digital Detox - Tiszteletben tartjuk az Ön szabadidejét és mentális békéjét.</p>
             </div>
         </section>
 
         <section id="about" class="about">
             <div class="container">
-                <h2>About DailyTen</h2>
-                <p>DailyTen is a mobile news application designed to keep you updated with the latest news from around the world. Our app delivers carefully curated news stories in an easy-to-read format, helping you stay informed without overwhelming you with information.</p>
+                <h2>A DailyTen-ről</h2>
+                <p>A DailyTen egy mobilhír-alkalmazás, amelyet úgy terveztek, hogy naprakészen tartja a világ legfrissebb híreivel. Az alkalmazásunk gondosan összeválogatott hírtörténeteket szállít könnyen olvasható formátumban, segítve Önnek, hogy tájékozott maradjon anélkül, hogy túlterhelné az információval.</p>
                 
                 <div class="features">
                     <div class="feature">
-                        <h3>📰 Curated News</h3>
-                        <p>Hand-picked news stories from reliable sources</p>
+                        <h3>⏰ Időt takarít meg</h3>
+                        <p>Napi releváns és szűrt hírek, nincs kattintásvadászat</p>
                     </div>
                     <div class="feature">
-                        <h3>🔄 Daily Updates</h3>
-                        <p>Fresh content delivered every day</p>
+                        <h3>🧘 Digital Detox</h3>
+                        <p>Tiszteletben tartjuk a szabadidőt és a mentális békét</p>
                     </div>
                     <div class="feature">
-                        <h3>📱 Mobile Optimized</h3>
-                        <p>Designed for the best mobile reading experience</p>
+                        <h3>📱 Mobilra Optimalizálva</h3>
+                        <p>A legjobb mobilolvasási élményre tervezve</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="privacy" class="contact">
+            <div class="container">
+                <h2>Adatvédelem</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📄 Adatvédelmi Szabályzat</h3>
+                        <p><a href="privacy.html">Adatvédelmi szabályzat megtekintése</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Személyes adatok védelme</h3>
+                    <p>Serious about your privacy? We are too. Read our comprehensive privacy policy to understand how we collect, use, and protect your personal information.</p>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="contact">
             <div class="container">
-                <h2>Contact Us</h2>
+                <h2>Kapcsolat</h2>
                 <div class="contact-info">
                     <div class="contact-item">
-                        <h3>📧 Email</h3>
+                        <h3>📧 E-mail</h3>
                         <p><a href="mailto:dailyten@dailytencom.net">dailyten@dailytencom.net</a></p>
                     </div>
                     <div class="contact-item">
-                        <h3>📱 App Name</h3>
+                        <h3>📞 Telefon</h3>
+                        <p><a href="tel:+36309524795">+36/30/9524795</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>🏢 Fejlesztő</h3>
+                        <p>DailyTen Media</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📱 Alkalmazás Neve</h3>
                         <p>DailyTen</p>
                     </div>
                     <div class="contact-item">
-                        <h3>📋 Category</h3>
-                        <p>News & Magazines</p>
+                        <h3>📋 Kategória</h3>
+                        <p>Hírek & Magazinok</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📍 Székhely</h3>
+                        <p>Magyarország</p>
                     </div>
                 </div>
                 
                 <div class="contact-form">
-                    <h3>Get in Touch</h3>
-                    <p>For support, feedback, or inquiries, please email us at the address above.</p>
+                    <h3>Vegye fel velünk a kapcsolatot</h3>
+                    <p>Támogatásért, visszajelzésért vagy érdeklődésért kérjük, e-mailben vegye fel velünk a kapcsolatot a fenti címen.</p>
                 </div>
             </div>
         </section>
@@ -79,8 +112,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 DailyTen. All rights reserved.</p>
-            <p>DailyTen News App - Your trusted source for daily news updates</p>
+            <p>&copy; 2026 DailyTen. Minden jog fenntartva.</p>
+            <p>DailyTen Híralkalmazás - Megbízható forrás a napi hírfolyamokhoz</p>
         </div>
     </footer>
 </body>
